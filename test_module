@@ -1,0 +1,7 @@
+ê	„∞a“€bN•˝YÂq„±WﬂZ@µ|`Ùâê	LHK!\c«dkı€‘ ZÏ_to_print):
+    print('it\'s ecrypted aaaa')
+    out = what_to_print
+    return out
+# —Ç–µ—Å—Ç–æ–≤–∞ –∫–∏—Ä–∏–ª–∏—Ü—è —ó—ó—ó—ó—ó
+def test2(test_string):
+    print('result test2 === {0} its imput string == {0}'.f
