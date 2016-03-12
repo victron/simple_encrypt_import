@@ -30,6 +30,7 @@ def encrypt_file(key, in_file, out_file=None, chunksize=64*1024):
                 if len(chunk) == 0:
                     break
                 elif len(chunk) % 16 != 0:
+                    # chunk += (' ' * (AES.block_size - (len(chunk) % AES.block_size))).encode('utf-8')
                     chunk += (' ' * (16 - (len(chunk) % 16))).encode('utf-8')
                 outfile.write(encryptor.encrypt(chunk))
 
